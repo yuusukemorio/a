@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>piano</title>
+    <style>
+        img {
+            max-width: 30vw;
+            height: auto;
+            display: block;
+            margin-bottom: 10px;
+        }
+
+        /* 最後の2枚を横並びにするためのスタイル */
+        .image-row {
+      display: flex;
+      gap: 10px; /* 画像間の隙間 */
+      align-items: flex-start;
+        }
+
+        .image-row img {
+            margin-bottom: 0;
+        }
+    </style>
+</head>
+<body>
+    <img src="piano/IMG_0534.JPG" alt="">
+    <!-- 音声プレイヤー -->
+    <audio controls>
+        <source src="piano/5.m4a" type="audio/m4a">
+    </audio>
+
+    <img src="piano/IMG_0535.jpg" alt="">
+    <audio controls>
+        <source src="piano/6.m4a" type="audio/m4a">
+    </audio>
+
+    <img src="piano/IMG_0542.JPG" alt="">
+    <audio controls>
+        <source src="piano/8.m4a" type="audio/m4a">
+    </audio>
+
+    <!-- 最後の2枚を横並びに -->
+    <div class="image-row">
+        <img src="piano/IMG_0536.JPG" alt="">
+        <img src="piano/スクリーンショット 2025-06-18 23.02.05.png" alt="">
+    </div>
+     <audio controls>
+        <source src="piano/7.m4a" type="audio/m4a">
+    </audio>
+</body>
+</html>
